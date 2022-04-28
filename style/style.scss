@@ -1,0 +1,81 @@
+$color-primario: #06073b;
+$color-atencion: #20e298;
+$color-secundario: #16abd8;
+$color-letra: #FFFFFF;
+
+body{
+
+    // header
+
+    nav{
+        background-color: $color-primario;
+        border-bottom: 10px solid linear-gradient($color-primario,#6c23d379);
+        padding-bottom: 0px;
+
+        //luz neon
+        box-shadow: 1px -5px 5vh 1vh rgba(48,197,182,1);
+        -webkit-box-shadow: 1px -5px 5vh 1vh rgba(48,197,182,1);
+        -moz-box-shadow: 1px -5px 5vh 1vh rgba(48,197,182,1);
+        //
+
+        .nav-color-gradient{
+            margin-top: 1vh;
+            min-height: 2vh;
+            min-width: 100%;
+            background: linear-gradient(to bottom, $color-primario, #31046e8e 50%);
+        }
+
+        .navbar-brand {
+            color: $color-letra;
+        }
+
+        .font-color {
+            color: $color-letra;
+        }
+        #navbarScrollingDropdown:hover {
+            color: $color-letra;
+        }
+        #navbarScrollingDropdown {
+            color: $color-letra;
+        }
+
+        .dropdown-menu{
+            background-color: $color-primario;
+            border-radius: 10px;
+
+            box-shadow: -1px 1px 15px 8px rgba(48,197,182,0.55) inset;
+            -webkit-box-shadow: -1px 1px 15px 8px rgba(48,197,182,0.55) inset;
+            -moz-box-shadow: -1px 1px 15px 8px rgba(48,197,182,0.55) inset;
+        }
+        
+    }
+    // fin header
+
+    // landsection
+    .landsection{
+        min-width: 100%;
+        min-height: 50vh;
+        background: black;
+
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        h1{
+            color: #FFFFFF;
+        }
+        h2 {
+            color: #FFFFFF;
+        }
+        h3 {
+            color: #FFFFFF;
+        }
+        text-align: center;
+        margin: 3vh 0vw 1vh 0vw
+    }
+
+    background-color: $color-primario;
+}

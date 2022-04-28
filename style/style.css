@@ -1,0 +1,71 @@
+body {
+  background-color: #06073b;
+}
+
+body nav {
+  background-color: #06073b;
+  border-bottom: 10px solid linear-gradient(#06073b, #6c23d379);
+  padding-bottom: 0px;
+  box-shadow: 1px -5px 5vh 1vh #30c5b6;
+  -webkit-box-shadow: 1px -5px 5vh 1vh #30c5b6;
+  -moz-box-shadow: 1px -5px 5vh 1vh #30c5b6;
+}
+
+body nav .nav-color-gradient {
+  margin-top: 1vh;
+  min-height: 2vh;
+  min-width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#06073b), color-stop(50%, #31046e8e));
+  background: linear-gradient(to bottom, #06073b, #31046e8e 50%);
+}
+
+body nav .navbar-brand {
+  color: #FFFFFF;
+}
+
+body nav .font-color {
+  color: #FFFFFF;
+}
+
+body nav #navbarScrollingDropdown:hover {
+  color: #FFFFFF;
+}
+
+body nav #navbarScrollingDropdown {
+  color: #FFFFFF;
+}
+
+body nav .dropdown-menu {
+  background-color: #06073b;
+  border-radius: 10px;
+  box-shadow: -1px 1px 15px 8px rgba(48, 197, 182, 0.55) inset;
+  -webkit-box-shadow: -1px 1px 15px 8px rgba(48, 197, 182, 0.55) inset;
+  -moz-box-shadow: -1px 1px 15px 8px rgba(48, 197, 182, 0.55) inset;
+}
+
+body .landsection {
+  min-width: 100%;
+  min-height: 50vh;
+  background: black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 3vh 0vw 1vh 0vw;
+}
+
+body .landsection h1 {
+  color: #FFFFFF;
+}
+
+body .landsection h2 {
+  color: #FFFFFF;
+}
+
+body .landsection h3 {
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */
