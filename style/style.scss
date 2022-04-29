@@ -1,4 +1,4 @@
-$color-primario: #06073b;
+$color-primario: #000127;
 $color-atencion: #20e298;
 $color-secundario: #16abd8;
 $color-letra: #FFFFFF;
@@ -54,9 +54,8 @@ body{
     // landsection
     .landsection{
         min-width: 100%;
-        min-height: 50vh;
+        
         background: black;
-
 
         h1{
             color: #FFFFFF;
@@ -68,7 +67,7 @@ body{
             color: #FFFFFF;
         }
         text-align: center;
-        margin: 3vh 0vw 1vh 0vw
+        padding: 25% 0vw 1vh 0vw
     }
 
     background-color: $color-primario;

@@ -1,10 +1,10 @@
 body {
-  background-color: #06073b;
+  background-color: #000127;
 }
 
 body nav {
-  background-color: #06073b;
-  border-bottom: 10px solid linear-gradient(#06073b, #6c23d379);
+  background-color: #000127;
+  border-bottom: 10px solid linear-gradient(#000127, #6c23d379);
   padding-bottom: 0px;
   box-shadow: 1px -5px 5vh 1vh #30c5b6;
   -webkit-box-shadow: 1px -5px 5vh 1vh #30c5b6;
@@ -15,8 +15,8 @@ body nav .nav-color-gradient {
   margin-top: 1vh;
   min-height: 2vh;
   min-width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#06073b), color-stop(50%, #31046e8e));
-  background: linear-gradient(to bottom, #06073b, #31046e8e 50%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000127), color-stop(50%, #31046e8e));
+  background: linear-gradient(to bottom, #000127, #31046e8e 50%);
 }
 
 body nav .navbar-brand {
@@ -36,7 +36,7 @@ body nav #navbarScrollingDropdown {
 }
 
 body nav .dropdown-menu {
-  background-color: #06073b;
+  background-color: #000127;
   border-radius: 10px;
   box-shadow: -1px 1px 15px 8px rgba(48, 197, 182, 0.55) inset;
   -webkit-box-shadow: -1px 1px 15px 8px rgba(48, 197, 182, 0.55) inset;
@@ -45,10 +45,9 @@ body nav .dropdown-menu {
 
 body .landsection {
   min-width: 100%;
-  min-height: 50vh;
   background: black;
   text-align: center;
-  margin: 3vh 0vw 1vh 0vw;
+  padding: 25% 0vw 1vh 0vw;
 }
 
 body .landsection h1 {
